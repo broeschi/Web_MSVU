@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="de-ch" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!--Meta-Daten, Verweise und Referenzen laden, die für den Head aller HTML-Dateien verwendet wird-->
+    <link rel="prefetch" href="/meta/kopf.html">
+    <!--Im Tab angezeigte Seitenname-->
+    <title>Militärschützen Neuigkeiten</title>
+    <!--Verweis auf den Style innerhalb der Seite-->
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/style.css">
+    <div>
+
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+            <ul class="navbar-nav">
+                <!-- Navigationsbar Quelle gefunden unter https://www.w3schools.com/css/css_navbar.asp -->
+                <li><a class="nav-link active" href="/Visier/visier.html">Im Visier</a></li>
+                <li><a class="nav-link" href="/Agenda/agenda.html">Agenda</a></li>
+                <li><a class="nav-link" href="/Kontakt/kontakt.html">Kontakt</a></li>
+                <li><a class="nav-link" href="/Links/links.html">Links</a></li>
+                <li style="float:right"><a class="nav-link" href="/Impressum/impressum.html">Impressum</a></li>
+                <li style="float:right"><a class="nav-link" href="/aboutus/about.html">Wer sind wir?</a></li>
+            </ul>
+        </nav>
+        <br />
+        <br />
+
+        <div>
+            <h2>MSV Untereggen</h2>
+            <h3>Neuigkeiten im Visier</h3>
+        </div>
+
+        <!-- Container für die Aufnahme externe Webseiteninhalte-->
+        <div class="container">
+            <div class="row">
+                <!--Kolonne 1-->
+                <div class="col-sm-4">
+                    <!--Zahl "4" gibt die Breite Kolonne an-->
+                    <h3>Instagram</h3>
+                    <!-- LightWidget WIDGET -->
+                    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+                    <iframe src="//lightwidget.com/widgets/67eb84e9e8e35ceeb130aedcf217190f.html" scrolling="no"
+                        allowtransparency="true" class="lightwidget-widget"
+                        style="width:100%;border:0;overflow:hidden;"></iframe>
+
+                </div>
+                <!--Kolonne 2 Piazza Untereggen-->
+                <div class="col-sm-4">
+                    <h3>Piazza Untereggen</h3>
+                    <iframe
+                        src="https://2324.ch/untereggen/artikel.html?channel=militarschutzenverein-untereggen&per=20"
+                        width="100%" height="900" frameborder="0" allowTransparency="true"></iframe>
+
+                </div>
+                <!--Kolonne 3 Twitternachrichten-->
+                <div class="col-sm-4">
+                    <h3>Twitter</h3>
+                    <a class="twitter-timeline" data-lang="de"
+                        href="https://twitter.com/BrogerRuedi?ref_src=twsrc%5Etfw/lists">Tweets by BrogerRuedi</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+                        twttr.widgets.createTimeline(
+                            {
+                                sourceType: "list",
+                                ownerScreenName: "Ruedi Broger",
+                                slug: ""
+                            },
+                            document.getElementById("timeline")
+                        );</script>
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<a class="twitter-timeline" data-lang="de" href="https://twitter.com/BrogerRuedi?ref_src=twsrc%5Etfw">Tweets by
+    BrogerRuedi</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</html>
